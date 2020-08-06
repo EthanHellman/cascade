@@ -1,0 +1,62 @@
+body {
+	background-image: url('Mount_Everest.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1 {
+	font-size: 65px;
+	color: black;
+	text-align: center;
+	font-family: "times";
+	text-decoration: underline;
+}
+
+section {
+	display: inline-block;
+	background-color: rgba(255, 255, 255, .3); 
+	margin-top: 10px;
+
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
+}
+
+form {
+	display: inline-block;
+
+	background-color: rgba(255, 255, 255, .3);
+	font-family: "times";
+	text-align: center;
+
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 30%;
+	margin-right: 30%;
+
+	padding: 20px;
+
+	width: 40%;
+	height: 40%;
+}
+
+input {
+	font-family: "times";
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+article {
+	background-color: rgba(255, 255, 255, .3); 
+	margin-top: 2%;
+	margin-left: 2%;
+	margin-right: 2%;
+	padding: 5px;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
