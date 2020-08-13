@@ -1,36 +1,29 @@
-body {
-	background-color: black;
-}
-
-fieldset {
-	background-color: white;
-	padding: 30px;
-	align-self: center;
-	margin-top: 20%;
-	margin-bottom: 10%;
-	margin-left: 15%;
-	margin-right: 15%;
-}
-
-label {
-	font-size: 20px;
-	font-family: "Courier New";
-}
-
-form {
+.loginform {
+	display: block;
+	position: relative;
+	width: 70%;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(184, 191, 204, .5);
+	box-shadow: 5px 5px 6px grey;
 	text-align: center;
 }
 
-legend {
-	color: green;
-	font-size: 50px;
-	font-family: "Courier New";
-	font-weight: bold;
+h1 {
+	text-align: center;
+	font-family: times;
+	font-size: 60px;
+	text-decoration: underline;
+	padding: 10px;
 }
 
 input {
-	margin-top: 10px;
-	margin-bottom: 10px;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	position: relative;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 3px;
+	margin-top: 5px;
 }

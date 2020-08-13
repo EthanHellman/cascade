@@ -1,0 +1,43 @@
+.banner {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 50px;
+	margin: 0px;
+	background-color: grey;
+}
+
+.btn {
+	background-color: black;
+	border: none;
+	font-size: 15px;
+	font-family: times;
+	color: white;
+	width: 5%;
+	height: 100%;
+	text-align: center;
+}
+
+.btn:hover {
+	background-color: grey;
+	color: black;
+}
+
+.home {
+	float: left;
+}
+
+.logout {
+	float: right;
+}
+
+.name {
+	height: 100%;
+	width: 10%;
+	font-size: 15px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: grey;
+	color:white;
+	float: right;
+}

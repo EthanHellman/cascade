@@ -4,6 +4,14 @@ body {
 	background-size: cover;
 }
 
+h2 {
+	text-align: center;
+	text-decoration: underline;
+	font-size: 30px;
+	font-family: times;
+	padding: 5px;
+}
+
 section {
 	display: inline-block;
 	background-color: rgba(255, 255, 255, .3); 
@@ -16,19 +24,36 @@ section {
 	height: 70%;
 }
 
-.guest {
-	display: inline-block;
+table {
 	background-color: rgba(255, 255, 255, .3);
+	width: 96%;
+	margin-top: 5%;
+	margin-bottom: 2%;
+	margin-left: 2%;
+	margin-right: 2%;
+	overflow-y: scroll;
+}
 
-	margin-left: 3%;
-	margin-right: 3%;
-	margin-top: 1%;
-	margin-bottom: 1%;
+th {
+	text-align: center;
+	background-color: rgba(255, 255, 255, .6);
+	margin-top: 10px;
+	margin-bottom: 5%;
+}
 
-	width: 94%;
-	padding-left: 10px;
-	padding-top: 3px;
-	padding-bottom: 3px;
+tr {
+	background-color: ;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
 
+td {
+	background-color: rgba(255, 255, 255, .3);
+	margin-left: 3px;
+	padding: 5px;
+}
 
+.messageall {
+	float: right;
+	margin-right: 2%;
 }
